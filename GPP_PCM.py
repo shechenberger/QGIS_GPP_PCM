@@ -935,13 +935,13 @@ def run_script(script_type, folder_path):
         print("\t1. Write filepaths  ✓")
         
         ## Github link
-        repo_url = "https://api.github.com/repos/shechenberger/snowfal"
+        repo_url = "https://api.github.com/repos/shechenberger/QGIS_GPP_PCM"
         
         if rp != "72h":
 ########## B.2 fetch data from GitHub #########################################
 ########## B.2.1 ZAMG station list data from GitHub (D0 calculations) #########
             ## define repository URL and file path
-            repo_url = "https://api.github.com/repos/shechenberger/snowfal"
+            repo_url = "https://api.github.com/repos/shechenberger/QGIS_GPP_PCM"
             file_path = "/ZAMG_Stationsliste_20190101.csv"
 
             ## get request to the GitHub API to retrieve file contents
@@ -1019,12 +1019,12 @@ def run_script(script_type, folder_path):
         if rp != "150" and rp != "72h":
 ########## B.2.2 Fetch 3TNSS_100j_HÖLZL_crs31254 file #############################
             ## Download shp file from github
-            response_shp = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_100j_HÖLZL_2022.shp")
-            response_shx = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_100j_HÖLZL_2022.shx")
-            response_cpg = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_100j_HÖLZL_2022.cpg")
-            response_dbf = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_100j_HÖLZL_2022.dbf")
-            response_prj = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_100j_HÖLZL_2022.prj")
-            response_qmd = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_100j_HÖLZL_2022.qmd")
+            response_shp = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_100j_HÖLZL_2022.shp")
+            response_shx = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_100j_HÖLZL_2022.shx")
+            response_cpg = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_100j_HÖLZL_2022.cpg")
+            response_dbf = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_100j_HÖLZL_2022.dbf")
+            response_prj = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_100j_HÖLZL_2022.prj")
+            response_qmd = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_100j_HÖLZL_2022.qmd")
 
             ## Write shp data
             if response_shp.status_code == 200:
@@ -1091,12 +1091,12 @@ def run_script(script_type, folder_path):
         if rp == "150":
             ## 3TNSS_150j_HÖLZL_crs31254
             ## Download shp file from github
-            response_shp = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_150j_HÖLZL_2022.shp")
-            response_shx = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_150j_HÖLZL_2022.shx")
-            response_cpg = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_150j_HÖLZL_2022.cpg")
-            response_dbf = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_150j_HÖLZL_2022.dbf")
-            response_prj = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_150j_HÖLZL_2022.prj")
-            response_qmd = requests.get("https://raw.githubusercontent.com/shechenberger/snowfal/main/3TNSS_150j_HÖLZL_2022.qmd")
+            response_shp = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_150j_HÖLZL_2022.shp")
+            response_shx = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_150j_HÖLZL_2022.shx")
+            response_cpg = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_150j_HÖLZL_2022.cpg")
+            response_dbf = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_150j_HÖLZL_2022.dbf")
+            response_prj = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_150j_HÖLZL_2022.prj")
+            response_qmd = requests.get("https://raw.githubusercontent.com/shechenberger/QGIS_GPP_PCM/main/3TNSS_150j_HÖLZL_2022.qmd")
 
             ## Write shp data
             if response_shp.status_code == 200:
