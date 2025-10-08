@@ -1,6 +1,6 @@
 GPP_PCM – Avalanche Simulation Model (Tyrol, Austria):
 
-Hechenberger Simon (2025): Simulation of Potential Avalanche Release Zones and Runout Lengths in Tyrol
+Hechenberger, S. (2025): Simulation of Potential Avalanche Release Zones and Runout Lengths in Tyrol
 Including Optional Integration of Real-Time Weather Data and LAWIS Snow Profiles - Master’s Thesis, University of Innsbruck.
 
 The GPP_PCM model is a Python-based workflow for simulating the entire avalanche process for different return periods in the Tyrolean Alps. It integrates multiple data sources and submodels, from potential release area detection to runout and flow-path modeling, within a single automated environment.
