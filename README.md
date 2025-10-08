@@ -1,5 +1,6 @@
 GPP_PCM – Avalanche Simulation Model (Tyrol, Austria):
 
+Publication:
 Hechenberger, S. (2025): Simulation of Potential Avalanche Release Zones and Runout Lengths in Tyrol
 Including Optional Integration of Real-Time Weather Data and LAWIS Snow Profiles - Master’s Thesis, University of Innsbruck.
 
