@@ -1,23 +1,27 @@
-## Master thesis:
+## GPP-PCM Avalanchen Simulation
+
+## Hechenberger, S. (2025): 
+## Simulation of Potential Avalanche Release Zones and Runout Lengths in Tyrol
+## Including Optional Integration of Real-Time Weather Data and LAWIS Snow Profiles
+## Master’s Thesis, University of Innsbruck.
 
 ## Simulaiton potenzielle Lawinenanbruchgebiete und Auslauflängen in Tirol
 ## Inklusive der optionalen Integraiton von Echtzeitwetterdaten und LAWIS-Schneeprofilen.
 
 ## Bedreut durch Rudolf Sailer, UIBK, 
-## eingereicht am ------.2025
+## eingereicht Oktober 2025
 
-## Grundelgende Scripts (von Rudolf Sailer)
+## Grundelgende Skripts (von Rudolf Sailer)
 ## QGIS_REL_gpp_v2.py   -> potenzielle Anbruchgebiete (PRA)
-## QGIS_PCM_MuXi.py     -> Fließpfad, max. Velocity, max. Pressure
+## QGIS_PCM_MuXi.py     -> Fließpfade, max. Velocity, max. Pressure
 
 ## Modelleigenschaften:
 ## 1.Berechnung PRAs basierend auf dem DGM-Tirol 5m oder 10m Auflösung.
 ## 2.Selektion der Schneehöhenmessung, LAWIS-Schneeprofilen
-## 3.Fließpfadsimulation - max. Geschwindikgeit und Spitzendruck
-
+## 3.Fließpfadsimulation - max. Geschwindikgeit und Spitzendruck (DGM-Tirol 5m oder 10m Auflösung).
 
 #################################################################################
-## PREPERATION ##############################################################
+## PREPERATION ##################################################################
 
 ## Install imports, set timer and interface 
 import time
