@@ -1,17 +1,17 @@
 ## GPP-PCM Avalanchen Simulation
 
 ## Hechenberger, S. (2025): 
-## Simulation of Potential Avalanche Release Zones and Runout Lengths in Tyrol
-## Including Optional Integration of Real-Time Weather Data and LAWIS Snow Profiles
+## Simulation of Potential Avalanche Release Zones and Runout Lengths in Tyrol,
+## Including Optional Integration of Real-Time Weather Data and LAWIS Snow Profiles.
 ## Master’s Thesis, University of Innsbruck.
 
-## Simulaiton potenzielle Lawinenanbruchgebiete und Auslauflängen in Tirol
+## Simulaiton potenzielle Lawinenanbruchgebiete und Auslauflängen in Tirol,
 ## Inklusive der optionalen Integraiton von Echtzeitwetterdaten und LAWIS-Schneeprofilen.
 
-## Bedreut durch Rudolf Sailer, UIBK, 
-## eingereicht Oktober 2025
+## Bedreut durch Rudolf Sailer, UIBk. 
+## Eingereicht Oktober 2025.
 
-## Grundelgende Skripts (von Rudolf Sailer)
+## Grundelgende Skripts (von Rudolf Sailer):
 ## QGIS_REL_gpp_v2.py   -> potenzielle Anbruchgebiete (PRA)
 ## QGIS_PCM_MuXi.py     -> Fließpfade, max. Velocity, max. Pressure
 
