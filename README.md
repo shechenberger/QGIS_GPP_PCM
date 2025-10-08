@@ -21,6 +21,7 @@ Dynamic friction modeling -> Continuously adjusts Coulomb friction (μ) and turb
 Model validation -> Compared with AvaFrame, Austrian hazard zone maps, and the original PCMMuXi implementation.
 Practical GIS integration -> Designed for use in QGIS or SAGA GIS with short computation times and optional real-time data integration.
 Dependencies -> The script runs in a Python Q-GIS environment (3.22.5-Białowieża).
+Validation -> AvaFrame simulations, Austrian hazard zone maps; Results show plausible runout distances and flow path geometries across different return periods.
 
 1. Input Data
 Area of Interest from Digital Elevation Model Tirol (DEM 5m or 10m resolution).
@@ -36,10 +37,3 @@ Pmax	Maximum dynamic pressure (kPa)
 PRA.shp (potential release area)
 Snow depth data (3 day snow max. or from meassurement from API)
 LAWIS snow profile dataset 
-
-Validation:
-Validation was performed through comparisons with: AvaFrame simulations, Austrian hazard zone maps
-Results show plausible runout distances and flow path geometries across different return periods.
-
-
-
