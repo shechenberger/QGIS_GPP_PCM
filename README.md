@@ -20,7 +20,7 @@ Snow profile analysis -> Utilizes snow profiles from the LAWIS database to repre
 Dynamic friction modeling -> Continuously adjusts Coulomb friction (μ) and turbulent friction (ξ) based on elevation and avalanche volume.
 Model validation -> Compared with AvaFrame, Austrian hazard zone maps, and the original PCMMuXi implementation.
 Practical GIS integration -> Designed for use in QGIS or SAGA GIS with short computation times and optional real-time data integration.
-Dependencies -> The script runs in a Python GIS environment (recommended: QGIS Python console or standalone execution).
+Dependencies -> The script runs in a Python Q-GIS environment (3.22.5-Białowieża).
 
 1. Input Data
 Area of Interest from Digital Elevation Model Tirol (DEM 5m or 10m resolution).
@@ -28,27 +28,18 @@ Area of Interest from Digital Elevation Model Tirol (DEM 5m or 10m resolution).
 3. Execution
 Check dependencies and file paths.
 Run GPP_PCM.py from the QGIS Python console.
-Choose Parameter
+Choose Parameter settings.
 
 4. Outputs
 Vmax	Maximum velocity (m/s) along the flow path
 Pmax	Maximum dynamic pressure (kPa)
 PRA.shp (potential release area)
-Snow depth data (3 day snow max or from meassurement from API)
+Snow depth data (3 day snow max. or from meassurement from API)
 LAWIS snow profile dataset 
 
-Validation
-Validation was performed through comparisons with:
-AvaFrame simulations
-RAMMS friction parameters
-Austrian hazard zone maps
+Validation:
+Validation was performed through comparisons with: AvaFrame simulations, Austrian hazard zone maps
 Results show plausible runout distances and flow path geometries across different return periods.
-Limitations
-Reduced accuracy for small avalanches in complex terrain
-Limited lateral spreading representation
-No direct simulation of flow depth
-Region of Application
-Developed and tested for Tyrol, Austrian Alps, but applicable to other alpine regions with suitable DEM and meteorological data.
-Citation
+
 
 
